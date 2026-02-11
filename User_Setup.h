@@ -85,10 +85,10 @@
 // #define TFT_WIDTH  128
 // #define TFT_WIDTH  172 // ST7789 172 x 320
 // #define TFT_WIDTH  170 // ST7789 170 x 320
-// #define TFT_WIDTH  240 // ST7789 240 x 240 and 240 x 320
+#define TFT_WIDTH  240 // ST7789 240 x 240 and 240 x 320
 // #define TFT_HEIGHT 160
 // #define TFT_HEIGHT 128
-// #define TFT_HEIGHT 240 // ST7789 240 x 240
+#define TFT_HEIGHT 240 // ST7789 240 x 240
 // #define TFT_HEIGHT 320 // ST7789 240 x 320
 // #define TFT_HEIGHT 240 // GC9A01 240 x 240
 
@@ -174,12 +174,12 @@
 #define TFT_CS    PIN_D8  // Chip select control pin D8
 #define TFT_DC    PIN_D3  // Data Command control pin
 #define TFT_RST   PIN_D4  // Reset pin (could connect to NodeMCU RST, see next line)
-//#define TFT_RST  -1     // Set TFT_RST to -1 if the display RESET is connected to NodeMCU RST or 3.3V
+// #define TFT_RST  -1     // Set TFT_RST to -1 if the display RESET is connected to NodeMCU RST or 3.3V
 
 
-//#define TFT_BL PIN_D1  // LED back-light (only for ST7789 with backlight control pin)
+#define TFT_BL PIN_D1  // LED back-light (only for ST7789 with backlight control pin)
 
-//#define TOUCH_CS PIN_D2     // Chip select pin (T_CS) of touch screen
+#define TOUCH_CS PIN_D2     // Chip select pin (T_CS) of touch screen
 
 //#define TFT_WR PIN_D2       // Write strobe for modified Raspberry Pi TFT only
 
