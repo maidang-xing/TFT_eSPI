@@ -105,7 +105,7 @@
   #include "Processors/TFT_eSPI_STM32.h"
 #elif defined(ARDUINO_ARCH_RP2040)
   #include "Processors/TFT_eSPI_RP2040.h"
-#elif defined(ARDUINO_TUYA_T5AI_CORE) || defined(ARDUINO_TUYA_T5AI_BOARD)
+#elif defined(ARDUINO_CHIP_T5)
   #include "Processors/TFT_eSPI_TuyaOpen.h"
 #else
   #include "Processors/TFT_eSPI_Generic.h"
